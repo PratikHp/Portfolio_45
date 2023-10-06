@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.svg';
+import heroImg from '../assets/pratik.png';
 import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import TypeWriterEffect from 'react-typewriter-effect';
 
@@ -14,10 +14,10 @@ const Hero = () => {
                       multiTextLoop
                       cursorColor="#f3f4f6"
                       multiText={[
-                        'Web Development',
-                        'Frontend Development',
-                        'Commpetitive Programmer',
-                        'Open-Source ',
+                        'Web Developer',
+                        'Frontend Developer',
+                        'Competitive Programmer',
+                        'Open-Source enthusiast',
                       ]}
                       multiTextDelay={1000}
                       typeSpeed={100}
@@ -45,7 +45,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="profile-options">
-              <a href="#projects">
+              <a href="#Contact">
                 <button className=" bg-gray-500 hover:bg-gray-300 text-white font-bold py-2 px-6 rounded-full mt-5 mr-2">Hire Me</button>
               </a>
               <a href="src\assets\Pratik_Hp_Resume.pdf" download>
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
         </article>
         <article className='hidden md:block '>
-          <img src={heroImg} className='h-80 lg:h-96' />
+          <img src={heroImg} className='h-90 lg:h-96 p "w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500' />
         </article>
       </div>
     </section>
