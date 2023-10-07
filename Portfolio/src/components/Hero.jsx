@@ -1,5 +1,6 @@
 import heroImg from '../assets/pratik.png';
-import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import {SiGmail} from 'react-icons/si';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 const Hero = () => {
@@ -28,6 +29,9 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>
+          <a href="mailto:pratikhanagandi3@gmail.com">
+              <SiGmail className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
             <a href='https://github.com/PratikHp'>
               <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
